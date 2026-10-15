@@ -1,0 +1,18 @@
+<div>
+  <span>CONTROL DE TEMPERATURA</span>
+</div>
+
+<div class="control">
+  <button (click)="onClickIncTemp()">➕</button>
+  <span> {{this.temperature()}} ºC </span>
+  <button (click)="onClickDecTemp()">➖</button>
+</div>
+
+<div>
+  <span>Umbral alerta</span>
+</div>
+<div>
+  <input
+  [value]="25"
+  (input)="onInput($event)">
+</div>
