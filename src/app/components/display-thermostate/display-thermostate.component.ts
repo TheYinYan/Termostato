@@ -19,9 +19,9 @@ export class DisplayThermostateComponent implements OnChanges {
   }
   // Inputs/outputs
   temperature = input.required<number>();
+  umbral = input.required<number>();
 
   // Propiedades
-  umbral = input.required<number>();
   alarm = false;
 
   // Eventos/listenters
