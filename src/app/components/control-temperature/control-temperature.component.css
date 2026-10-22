@@ -1,22 +1,39 @@
-:host{
+:host {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1rem;
   border-top: 5px solid #1C6EA4;
   border-bottom: 5px solid #1C6EA4;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
 }
 
-.control{
+.control {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  border: 5px solid #1C6EA4;
-  border-radius: 5px;
+  gap: 1.5rem;
+  border: 3px solid #1C6EA4;
+  border-radius: 8px;
   align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: white;
 }
 
-button{
-  padding: 0.2rem;
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #d0d0d0;
 }
